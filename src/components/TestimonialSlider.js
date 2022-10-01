@@ -16,11 +16,11 @@ const TestimonialSlider = () => {
               <div className='flex items-center gap-x-5 mb-9'>
                 <img src={avatar.type} alt='' />
                 <div>
-                  <div className='text-xl font-semibold'>{name}</div>
-                  <div className='text-gray-500'>{occupation}</div>
+                  <div className='text-xl font-semibold text-teal-500'>{name}</div>
+                  <div className='text-white'>{occupation}</div>
                 </div>
               </div>
-              <div className='text-xl max-w-[570px]'>{message}</div>
+              <div className='text-xl max-w-[570px] text-white'>{message}</div>
             </div>
           </SwiperSlide>
         )
