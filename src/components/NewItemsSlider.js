@@ -21,7 +21,7 @@ const NewItemsSlider = () => {
         <SwiperSlide className='max-w-[265px]' key={index}>
           <div className='relative'>
             <img src={product.image.type} alt='' />
-            <div className='absolute text-yellow-600 bottom-[20px] w-full text-center text-[28px] lg:text-2xl'>{product.name}</div>
+            <div className='absolute bg-gradient-to-bl text-transparent bg-clip-text from-sky-400 via-rose-400 to-lime-400 bottom-[20px] w-full text-center text-[28px] lg:text-2xl'>{product.name}</div>
           </div>
         </SwiperSlide>
       )

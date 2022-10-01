@@ -30,7 +30,7 @@ const Header = () => {
               {navigation.map((item, index) => {
                 return (
                   <li key={index}>
-                    <a className='capitalize text-white hover:border-b transition-all' href={item.href}>
+                    <a className='capitalize text-teal-500 hover:border-b transition-all' href={item.href}>
                       {item.name}
                     </a>
                   </li>
